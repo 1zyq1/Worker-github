@@ -47,8 +47,9 @@ GitHub 加速服务是一个基于 Cloudflare Workers 和腾讯云 EdgeOne 构�
 ## 使用方法
 
 ### 在线使用
-访问部署好的服务，输入 GitHub 链接或用户名即可生成加速链接。
+[体验]([https://space.bilibili.com/3546823872481570]) 
 
 ---
 
 **让 GitHub 访问更快速，让开发更高效！**
+
