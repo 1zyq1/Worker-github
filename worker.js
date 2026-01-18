@@ -10,8 +10,8 @@ const RAW_HOST = 'https://raw.githubusercontent.com';
 
 // 缓存配置（仅用于 raw / archive）
 const CACHE_CONFIG = {
-  browserTTL: 60 * 60 * 24 * 7, // 7 天
-  edgeTTL: 60 * 60 * 24 * 30,  // 30 天
+  browserTTL: 60 * 60 * 24 * 1, // 7 天
+  edgeTTL: 60 * 60 * 24 * 7,  // 30 天
 };
 
 addEventListener('fetch', event => {
@@ -33,9 +33,9 @@ function getHTML() {
 body{min-height:100vh;display:flex;align-items:center;justify-content:center;
 background:url(https://t.alcy.cc/ycy) center/cover no-repeat fixed;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
 padding:20px}
-.container{background:rgba(255,255,255,0.92);border-radius:12px;
+.container{background:rgba(255,255,255,0.15);border-radius:12px;
 box-shadow:0 8px 24px rgba(0,0,0,0.15);width:100%;max-width:560px;padding:36px;
-backdrop-filter:blur(8px)}
+backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.2)}
 .header{text-align:center;margin-bottom:28px}
 .logo{width:72px;height:72px;background:#24292e;
 border-radius:8px;margin:0 auto 16px;display:flex;align-items:center;justify-content:center}
