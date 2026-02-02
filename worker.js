@@ -27,7 +27,6 @@ function getHTML() {
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>GitHub 加速下载</title>
-<script defer src="https://cloud.umami.is/script.js" data-website-id="b3d7552d-b639-4c71-84bc-c235227063a8"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -240,3 +239,4 @@ async function handleRequest(event) {
   event.waitUntil(cache.put(cacheKey, newResp.clone()));
   return newResp;
 }
+
